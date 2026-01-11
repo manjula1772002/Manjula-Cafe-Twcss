@@ -62,6 +62,9 @@
     border-radius: 10px;
     background: #e2d9c8;
     color: #30261c;
+    margin: auto;
+    @apply hover:transition-all 
+    
 }
 
 .coffee_card_main h3 {
@@ -85,6 +88,7 @@
     color: #fff;
     padding: 5px 10px;
     border-radius: 6px;
+    @apply hover:bg-white hover:text-[#30261c] hover:font-bold outline-2 outline-[#30261c]
 }
 
 .review_items_card {
@@ -102,4 +106,7 @@
     background-size: contain;
     background-color: #e2d9c8;
     text-align: center;
+}
+.ulist li{
+    @apply hover:bg-white hover:text-[#30261c]   px-3 py-0.5 rounded hover:outline-[#30261c]
 }
